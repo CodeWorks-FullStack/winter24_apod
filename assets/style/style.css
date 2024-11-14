@@ -1,0 +1,55 @@
+/* BASIC STYLES HERE */
+.profile-picture {
+  height: 200px;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.profile-picture.profile-picture-sm {
+  height: 64px;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+}
+
+.text-shadow {
+  text-shadow: 0px 2px 4px black;
+  font-weight: 600;
+  line-height: 2em;
+}
+
+.preview-img {
+  height: 50px;
+  width: 30%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+#active-apod {
+  opacity: 0;
+  transition: opacity 2s 5s ease;
+}
+
+.hover-eye:hover+#active-apod {
+  transition: opacity 15s ease;
+  opacity: 1;
+  /* animation: enable-save 15s ease forwards; */
+}
+
+@keyframes enable-save {
+
+  0%,
+  99% {
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  100% {
+    pointer-events: all;
+    cursor: pointer;
+  }
+}

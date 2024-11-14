@@ -1,0 +1,26 @@
+{
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#2436b1",
+    "statusBar.background": "#2436b1",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#3347d5",
+    "statusBarItem.remoteBackground": "#2436b1",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#2436b1",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#2436b199",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "editorGroup.border": "#2436b1",
+    "sideBar.border": "#2436b1",
+    "statusBar.debuggingBackground": "#b19f24",
+    "statusBar.debuggingForeground": "#15202b",
+    "tab.activeBorder": "#2436b1"
+  },
+  "peacock.color": "#2436b1",
+  "cSpell.words": [
+    "Apods"
+  ],
+}
